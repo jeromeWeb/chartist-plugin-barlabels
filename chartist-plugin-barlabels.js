@@ -25,7 +25,6 @@
     return function ctBarLabels(chart) {
       if(chart instanceof Chartist.Bar) {
         chart.on('draw', function(data) {
-        	console.log(data);
           if(data.type === 'bar') {
         	  
         	data.group.elem('line', {

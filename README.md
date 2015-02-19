@@ -1,5 +1,6 @@
 # Bar labels for Chartist.js 
 This is a simple plugin for Chartist.js that will add a label at the top of each bar on bar charts.
+NB: This won't have a good looking on stacked bar charts
 
 ## Available options and their defaults values
 ```javascript
